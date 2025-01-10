@@ -12,8 +12,8 @@ plugins {
   id 'org.sonarqube' version '5.1.0.4882'
   id 'io.freefair.lombok' version '8.10.2'
   id 'info.solidsoft.pitest' version '1.15.0'
-  id 'net.serenity-bdd.serenity-gradle-plugin' version '3.2.0'
-  id 'au.com.dius.pact' version '4.1.0'
+  id 'net.serenity-bdd.serenity-gradle-plugin' version '3.9.8'
+  id 'au.com.dius.pact' version '4.6.16'
 }
 
 group = 'uk.gov.hmcts.reform'
@@ -297,10 +297,10 @@ def versions = [
   junitPlatform       : '1.11.3',
   reformLogging       : '6.1.7',
   springDoc           : '2.6.0',
-  serenity            : '3.4.2',
+  serenity            : '3.9.8',
   springFrameworkCloud: '2.2.10.RELEASE',
-  pitest              : '1.16.1',
-  pactVersion         : '4.1.7',
+  pitest              : '1.17.4',
+  pactVersion         : '4.6.16',
   tomcat              : '10.1.31'
 ]
 
